@@ -13,4 +13,4 @@ spec:
       protocol: TCP
       name: http
   selector:
-    {{- include "apps.selectorLabels" . | nindent 4 }}
+    k8s-app: jitsi
